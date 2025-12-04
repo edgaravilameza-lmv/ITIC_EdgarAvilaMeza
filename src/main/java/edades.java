@@ -33,7 +33,24 @@ public class edades {
          if (e4>mayor) {
                 mayor=e4;
         }       
-                
+         
+         int iguales=e1;
+         if (e2>iguales){
+         iguales=e2;
+         }
+         if (e3>iguales){
+             iguales=e3;
+         }
+         if (e4>iguales){
+             iguales=e4;
+         }
+        
+         
+         
+         
+         
+         
+         System.out.println("las edades iguales son "+ iguales);
         System.out.println("La pesrona mayor tiene "+mayor+"años");        
        }
 }
